@@ -1,0 +1,106 @@
+2025-09-10 19:17:55.530 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-10 19:17:55.637 +08:00 [DBG] Hosting starting
+2025-09-10 19:17:55.652 +08:00 [DBG] Middleware loaded
+2025-09-10 19:17:55.653 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B).
+2025-09-10 19:17:55.654 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-10 19:17:55.753 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-10 19:17:55.923 +08:00 [INF] Now listening on: https://localhost:7195
+2025-09-10 19:17:55.923 +08:00 [INF] Now listening on: http://localhost:5162
+2025-09-10 19:17:55.923 +08:00 [DBG] Loaded hosting startup assembly THMY-API
+2025-09-10 19:17:55.923 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-10 19:17:55.923 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-10 19:17:55.923 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-10 19:17:55.982 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-10 19:17:55.982 +08:00 [INF] Hosting environment: Development
+2025-09-10 19:17:55.982 +08:00 [INF] Content root path: C:\Users\tzerming\Documents\C#\THMY-API
+2025-09-10 19:17:55.982 +08:00 [DBG] Hosting started
+2025-09-10 19:17:56.400 +08:00 [DBG] Connection id "0HNFGBEOL08NM" accepted.
+2025-09-10 19:17:56.400 +08:00 [DBG] Connection id "0HNFGBEOL08NN" accepted.
+2025-09-10 19:17:56.407 +08:00 [DBG] Connection id "0HNFGBEOL08NM" started.
+2025-09-10 19:17:56.407 +08:00 [DBG] Connection id "0HNFGBEOL08NN" started.
+2025-09-10 19:17:56.408 +08:00 [DBG] Connection id "0HNFGBEOL08NN" received FIN.
+2025-09-10 19:17:56.408 +08:00 [DBG] Connection id "0HNFGBEOL08NM" received FIN.
+2025-09-10 19:17:56.571 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-10 19:17:56.571 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-10 19:17:56.689 +08:00 [DBG] Connection id "0HNFGBEOL08NN" stopped.
+2025-09-10 19:17:56.689 +08:00 [DBG] Connection id "0HNFGBEOL08NM" stopped.
+2025-09-10 19:17:56.694 +08:00 [DBG] Connection id "0HNFGBEOL08NM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:17:56.694 +08:00 [DBG] Connection id "0HNFGBEOL08NN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:17:56.773 +08:00 [DBG] Connection id "0HNFGBEOL08NO" accepted.
+2025-09-10 19:17:56.773 +08:00 [DBG] Connection id "0HNFGBEOL08NO" started.
+2025-09-10 19:17:56.845 +08:00 [DBG] Connection 0HNFGBEOL08NO established using the following protocol: "Tls13"
+2025-09-10 19:17:56.928 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7195/scalar/v1 - null null
+2025-09-10 19:17:57.067 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-10 19:17:57.088 +08:00 [DBG] No candidates found for the request path '/scalar/v1'
+2025-09-10 19:17:57.088 +08:00 [DBG] Request did not match any endpoints
+2025-09-10 19:17:57.236 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-10 19:17:57.270 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7195/scalar/v1 - 404 0 null 349.9709ms
+2025-09-10 19:17:57.272 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/scalar/v1, Response status code: 404
+2025-09-10 19:17:57.508 +08:00 [DBG] Connection id "0HNFGBEOL08NO" received FIN.
+2025-09-10 19:17:57.512 +08:00 [DBG] The connection queue processing loop for 0HNFGBEOL08NO completed.
+2025-09-10 19:17:57.512 +08:00 [DBG] Connection id "0HNFGBEOL08NO" is closed. The last processed stream ID was 1.
+2025-09-10 19:17:57.513 +08:00 [DBG] Connection id "0HNFGBEOL08NO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:17:57.525 +08:00 [DBG] Connection id "0HNFGBEOL08NO" stopped.
+2025-09-10 19:18:26.569 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-10 19:18:26.682 +08:00 [DBG] Hosting starting
+2025-09-10 19:18:26.693 +08:00 [DBG] Middleware loaded
+2025-09-10 19:18:26.694 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B).
+2025-09-10 19:18:26.694 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-10 19:18:26.786 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-10 19:18:26.915 +08:00 [INF] Now listening on: https://localhost:7195
+2025-09-10 19:18:26.915 +08:00 [INF] Now listening on: http://localhost:5162
+2025-09-10 19:18:26.915 +08:00 [DBG] Loaded hosting startup assembly THMY-API
+2025-09-10 19:18:26.915 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-10 19:18:26.915 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-10 19:18:26.915 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-10 19:18:26.966 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-10 19:18:26.967 +08:00 [INF] Hosting environment: Development
+2025-09-10 19:18:26.967 +08:00 [INF] Content root path: C:\Users\tzerming\Documents\C#\THMY-API
+2025-09-10 19:18:26.967 +08:00 [DBG] Hosting started
+2025-09-10 19:18:27.269 +08:00 [DBG] Connection id "0HNFGBF1RD1P0" accepted.
+2025-09-10 19:18:27.269 +08:00 [DBG] Connection id "0HNFGBF1RD1P1" accepted.
+2025-09-10 19:18:27.270 +08:00 [DBG] Connection id "0HNFGBF1RD1P0" started.
+2025-09-10 19:18:27.270 +08:00 [DBG] Connection id "0HNFGBF1RD1P1" started.
+2025-09-10 19:18:27.295 +08:00 [DBG] Connection id "0HNFGBF1RD1P0" received FIN.
+2025-09-10 19:18:27.295 +08:00 [DBG] Connection id "0HNFGBF1RD1P1" received FIN.
+2025-09-10 19:18:27.441 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-10 19:18:27.441 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-10 19:18:27.477 +08:00 [DBG] Connection id "0HNFGBF1RD1P0" stopped.
+2025-09-10 19:18:27.477 +08:00 [DBG] Connection id "0HNFGBF1RD1P1" stopped.
+2025-09-10 19:18:27.479 +08:00 [DBG] Connection id "0HNFGBF1RD1P0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:18:27.479 +08:00 [DBG] Connection id "0HNFGBF1RD1P1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:18:27.879 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" accepted.
+2025-09-10 19:18:27.879 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" started.
+2025-09-10 19:18:27.922 +08:00 [DBG] Connection 0HNFGBF1RD1P2 established using the following protocol: "Tls13"
+2025-09-10 19:18:27.991 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7195/scalar/v1 - null null
+2025-09-10 19:18:28.124 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-10 19:18:28.142 +08:00 [DBG] No candidates found for the request path '/scalar/v1'
+2025-09-10 19:18:28.143 +08:00 [DBG] Request did not match any endpoints
+2025-09-10 19:18:28.265 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-10 19:18:28.298 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7195/scalar/v1 - 404 0 null 315.825ms
+2025-09-10 19:18:28.299 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/scalar/v1, Response status code: 404
+2025-09-10 19:18:51.678 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" received FIN.
+2025-09-10 19:18:51.681 +08:00 [DBG] The connection queue processing loop for 0HNFGBF1RD1P2 completed.
+2025-09-10 19:18:51.682 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" is closed. The last processed stream ID was 1.
+2025-09-10 19:18:51.682 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-10 19:18:51.698 +08:00 [DBG] Connection id "0HNFGBF1RD1P2" stopped.

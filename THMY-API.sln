@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THMY-API", "THMY-API.csproj", "{A1C2DE20-3987-4162-A74E-23BEBFAF9209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1C2DE20-3987-4162-A74E-23BEBFAF9209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C2DE20-3987-4162-A74E-23BEBFAF9209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C2DE20-3987-4162-A74E-23BEBFAF9209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C2DE20-3987-4162-A74E-23BEBFAF9209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0BF88F0-E49E-4B79-942E-515EFC6D000D}
+	EndGlobalSection
+EndGlobal

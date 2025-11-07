@@ -1,0 +1,476 @@
+2025-09-11 07:25:09.056 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-11 07:25:09.245 +08:00 [DBG] Hosting starting
+2025-09-11 07:25:09.264 +08:00 [DBG] Middleware loaded
+2025-09-11 07:25:09.266 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B).
+2025-09-11 07:25:09.268 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-11 07:25:09.425 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-11 07:25:09.690 +08:00 [DBG] Connection id "0HNFGO54CFM8K" received FIN.
+2025-09-11 07:25:09.690 +08:00 [DBG] Connection id "0HNFGO54CFM8J" received FIN.
+2025-09-11 07:25:09.699 +08:00 [DBG] Connection id "0HNFGO54CFM8J" accepted.
+2025-09-11 07:25:09.699 +08:00 [DBG] Connection id "0HNFGO54CFM8K" accepted.
+2025-09-11 07:25:09.700 +08:00 [DBG] Connection id "0HNFGO54CFM8J" started.
+2025-09-11 07:25:09.700 +08:00 [DBG] Connection id "0HNFGO54CFM8K" started.
+2025-09-11 07:25:09.705 +08:00 [INF] Now listening on: https://localhost:7195
+2025-09-11 07:25:09.706 +08:00 [INF] Now listening on: http://localhost:5162
+2025-09-11 07:25:09.706 +08:00 [DBG] Loaded hosting startup assembly THMY-API
+2025-09-11 07:25:09.706 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-11 07:25:09.706 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-11 07:25:09.706 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-11 07:25:09.901 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-11 07:25:09.901 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-11 07:25:09.976 +08:00 [DBG] Connection id "0HNFGO54CFM8K" stopped.
+2025-09-11 07:25:09.976 +08:00 [DBG] Connection id "0HNFGO54CFM8J" stopped.
+2025-09-11 07:25:09.979 +08:00 [DBG] Connection id "0HNFGO54CFM8K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:25:09.979 +08:00 [DBG] Connection id "0HNFGO54CFM8J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:25:09.984 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 07:25:09.984 +08:00 [INF] Hosting environment: Development
+2025-09-11 07:25:09.984 +08:00 [INF] Content root path: C:\Users\tzerming\Documents\C#\THMY-API
+2025-09-11 07:25:09.984 +08:00 [DBG] Hosting started
+2025-09-11 07:25:10.350 +08:00 [DBG] Connection id "0HNFGO54CFM8L" accepted.
+2025-09-11 07:25:10.350 +08:00 [DBG] Connection id "0HNFGO54CFM8L" started.
+2025-09-11 07:25:10.441 +08:00 [DBG] Connection 0HNFGO54CFM8L established using the following protocol: "Tls13"
+2025-09-11 07:25:10.528 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7195/scalar/v1 - null null
+2025-09-11 07:25:10.740 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-11 07:25:10.765 +08:00 [DBG] No candidates found for the request path '/scalar/v1'
+2025-09-11 07:25:10.766 +08:00 [DBG] Request did not match any endpoints
+2025-09-11 07:25:10.988 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-11 07:25:11.056 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7195/scalar/v1 - 404 0 null 532.8066ms
+2025-09-11 07:25:11.058 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/scalar/v1, Response status code: 404
+2025-09-11 07:28:26.312 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-11 07:28:26.410 +08:00 [DBG] Hosting starting
+2025-09-11 07:28:26.422 +08:00 [DBG] Middleware loaded
+2025-09-11 07:28:26.423 +08:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16501 B).
+2025-09-11 07:28:26.424 +08:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-11 07:28:26.526 +08:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-11 07:28:26.646 +08:00 [INF] Now listening on: https://localhost:7195
+2025-09-11 07:28:26.647 +08:00 [INF] Now listening on: http://localhost:5162
+2025-09-11 07:28:26.647 +08:00 [DBG] Loaded hosting startup assembly THMY-API
+2025-09-11 07:28:26.647 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-11 07:28:26.647 +08:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-11 07:28:26.647 +08:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-11 07:28:26.676 +08:00 [DBG] Connection id "0HNFGO6V336GK" received FIN.
+2025-09-11 07:28:26.676 +08:00 [DBG] Connection id "0HNFGO6V336GJ" received FIN.
+2025-09-11 07:28:26.682 +08:00 [DBG] Connection id "0HNFGO6V336GJ" accepted.
+2025-09-11 07:28:26.682 +08:00 [DBG] Connection id "0HNFGO6V336GK" accepted.
+2025-09-11 07:28:26.683 +08:00 [DBG] Connection id "0HNFGO6V336GJ" started.
+2025-09-11 07:28:26.683 +08:00 [DBG] Connection id "0HNFGO6V336GK" started.
+2025-09-11 07:28:26.803 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-11 07:28:26.822 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 07:28:26.803 +08:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-11 07:28:26.844 +08:00 [INF] Hosting environment: Development
+2025-09-11 07:28:26.844 +08:00 [INF] Content root path: C:\Users\tzerming\Documents\C#\THMY-API
+2025-09-11 07:28:26.844 +08:00 [DBG] Hosting started
+2025-09-11 07:28:26.847 +08:00 [DBG] Connection id "0HNFGO6V336GJ" stopped.
+2025-09-11 07:28:26.847 +08:00 [DBG] Connection id "0HNFGO6V336GK" stopped.
+2025-09-11 07:28:26.851 +08:00 [DBG] Connection id "0HNFGO6V336GJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:28:26.851 +08:00 [DBG] Connection id "0HNFGO6V336GK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:28:26.902 +08:00 [DBG] Connection id "0HNFGO6V336GL" accepted.
+2025-09-11 07:28:26.902 +08:00 [DBG] Connection id "0HNFGO6V336GL" started.
+2025-09-11 07:28:26.951 +08:00 [DBG] Connection 0HNFGO6V336GL established using the following protocol: "Tls13"
+2025-09-11 07:28:27.010 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7195/scalar/v1 - null null
+2025-09-11 07:28:27.133 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-11 07:28:27.149 +08:00 [DBG] No candidates found for the request path '/scalar/v1'
+2025-09-11 07:28:27.149 +08:00 [DBG] Request did not match any endpoints
+2025-09-11 07:28:27.252 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-09-11 07:28:27.283 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7195/scalar/v1 - 404 0 null 278.7977ms
+2025-09-11 07:28:27.284 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7195/scalar/v1, Response status code: 404
+2025-09-11 07:28:45.528 +08:00 [DBG] Connection id "0HNFGO6V336GM" accepted.
+2025-09-11 07:28:45.528 +08:00 [DBG] Connection id "0HNFGO6V336GM" started.
+2025-09-11 07:28:45.550 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5162/User - application/json 67
+2025-09-11 07:28:45.552 +08:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-09-11 07:28:45.554 +08:00 [DBG] Endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)' with route pattern 'User' is valid for the request path '/User'
+2025-09-11 07:28:45.555 +08:00 [DBG] Request matched endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:28:45.559 +08:00 [DBG] Https port '7195' loaded from configuration.
+2025-09-11 07:28:45.561 +08:00 [DBG] Redirecting to 'https://localhost:7195/User'.
+2025-09-11 07:28:45.570 +08:00 [DBG] Connection id "0HNFGO6V336GM" completed keep alive response.
+2025-09-11 07:28:45.571 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5162/User - 307 0 null 21.2211ms
+2025-09-11 07:28:45.573 +08:00 [DBG] Connection id "0HNFGO6V336GM", Request id "0HNFGO6V336GM:00000001": started reading request body.
+2025-09-11 07:28:45.573 +08:00 [DBG] Connection id "0HNFGO6V336GM", Request id "0HNFGO6V336GM:00000001": done reading request body.
+2025-09-11 07:28:45.581 +08:00 [DBG] Connection id "0HNFGO6V336GN" accepted.
+2025-09-11 07:28:45.581 +08:00 [DBG] Connection id "0HNFGO6V336GN" started.
+2025-09-11 07:28:45.608 +08:00 [DBG] Connection 0HNFGO6V336GN established using the following protocol: "Tls13"
+2025-09-11 07:28:45.640 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/User - application/json 67
+2025-09-11 07:28:45.640 +08:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-09-11 07:28:45.640 +08:00 [DBG] Endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)' with route pattern 'User' is valid for the request path '/User'
+2025-09-11 07:28:45.640 +08:00 [DBG] Request matched endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:28:46.031 +08:00 [DBG] Entity Framework Core 8.0.10 initialized 'APIContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: MigrationsAssembly=THMY-API 
+2025-09-11 07:28:46.054 +08:00 [DBG] Compiling query expression: 
+'DbSet<APIStorage>()
+    .Any(a => a.ApplicationName.Equals(__p_0))'
+2025-09-11 07:28:46.183 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM APIStroageKey AS a
+            WHERE a.ApplicationName == @__p_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    THMY_API.Models.DBContext.APIContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-09-11 07:28:46.198 +08:00 [DBG] Creating DbConnection.
+2025-09-11 07:28:46.202 +08:00 [DBG] Created DbConnection. (4ms).
+2025-09-11 07:28:46.203 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.210 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.213 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:28:46.216 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-09-11 07:28:46.218 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-09-11 07:28:46.222 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "APIStroageKey" AS "a"
+    WHERE "a"."ApplicationName" = @__p_0)
+2025-09-11 07:28:46.235 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "APIStroageKey" AS "a"
+    WHERE "a"."ApplicationName" = @__p_0)
+2025-09-11 07:28:46.239 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.243 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' is being disposed after spending 4ms reading results.
+2025-09-11 07:28:46.244 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.246 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (1ms).
+2025-09-11 07:28:46.248 +08:00 [DBG] Compiling query expression: 
+'DbSet<APIStorage>()
+    .First(a => a.ApplicationName.Equals(__p_0))'
+2025-09-11 07:28:46.273 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<APIStorage>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: APIStorage.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: APIStorage.APISecret (string) Required, 1], [Property: APIStorage.ApplicationName (string) Required, 2] }
+        SELECT TOP(1) a.Id, a.APISecret, a.ApplicationName
+        FROM APIStroageKey AS a
+        WHERE a.ApplicationName == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, APIStorage>, 
+    THMY_API.Models.DBContext.APIContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-09-11 07:28:46.274 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.274 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.274 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:28:46.275 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.275 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.275 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."APISecret", "a"."ApplicationName"
+FROM "APIStroageKey" AS "a"
+WHERE "a"."ApplicationName" = @__p_0
+LIMIT 1
+2025-09-11 07:28:46.275 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."APISecret", "a"."ApplicationName"
+FROM "APIStroageKey" AS "a"
+WHERE "a"."ApplicationName" = @__p_0
+LIMIT 1
+2025-09-11 07:28:46.290 +08:00 [DBG] Context 'APIContext' started tracking 'APIStorage' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-11 07:28:46.298 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.298 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' is being disposed after spending 23ms reading results.
+2025-09-11 07:28:46.299 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.299 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (0ms).
+2025-09-11 07:28:46.300 +08:00 [INF] Executing endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:28:46.312 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[InternalSystem_ModelContext.Models.SQLite.Employee]] Login(THMY_API.Models.User) on controller THMY_API.Controllers.UserController (THMY-API).
+2025-09-11 07:28:46.313 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-11 07:28:46.313 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-11 07:28:46.313 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-11 07:28:46.314 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-11 07:28:46.314 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-11 07:28:46.315 +08:00 [DBG] Executing controller factory for controller THMY_API.Controllers.UserController (THMY-API)
+2025-09-11 07:28:46.323 +08:00 [DBG] Executed controller factory for controller THMY_API.Controllers.UserController (THMY-API)
+2025-09-11 07:28:46.328 +08:00 [DBG] Attempting to bind parameter 'user' of type 'THMY_API.Models.User' ...
+2025-09-11 07:28:46.330 +08:00 [DBG] Attempting to bind parameter 'user' of type 'THMY_API.Models.User' using the name '' in request data ...
+2025-09-11 07:28:46.330 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-09-11 07:28:46.335 +08:00 [DBG] Connection id "0HNFGO6V336GN", Request id "0HNFGO6V336GN:00000001": started reading request body.
+2025-09-11 07:28:46.335 +08:00 [DBG] Connection id "0HNFGO6V336GN", Request id "0HNFGO6V336GN:00000001": done reading request body.
+2025-09-11 07:28:46.339 +08:00 [DBG] JSON input formatter succeeded, deserializing to type 'THMY_API.Models.User'
+2025-09-11 07:28:46.340 +08:00 [DBG] Done attempting to bind parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:28:46.340 +08:00 [DBG] Done attempting to bind parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:28:46.340 +08:00 [DBG] Attempting to validate the bound parameter 'user' of type 'THMY_API.Models.User' ...
+2025-09-11 07:28:46.346 +08:00 [DBG] Done attempting to validate the bound parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:28:46.348 +08:00 [DBG] In PostRequest.
+2025-09-11 07:28:46.507 +08:00 [DBG] Entity Framework Core 8.0.10 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: MigrationsAssembly=THMY-API 
+2025-09-11 07:28:46.509 +08:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .Any(e => e.empId == __user_EmployeeID_0)'
+2025-09-11 07:28:46.512 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM employee AS e
+            WHERE e.empId == @__user_EmployeeID_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    InternalSystem_ModelContext.DatabaseContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-09-11 07:28:46.513 +08:00 [DBG] Creating DbConnection.
+2025-09-11 07:28:46.513 +08:00 [DBG] Created DbConnection. (0ms).
+2025-09-11 07:28:46.513 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.513 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.513 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:28:46.513 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.513 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.513 +08:00 [DBG] Executing DbCommand [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "employee" AS "e"
+    WHERE "e"."empId" = @__user_EmployeeID_0)
+2025-09-11 07:28:46.514 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "employee" AS "e"
+    WHERE "e"."empId" = @__user_EmployeeID_0)
+2025-09-11 07:28:46.514 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.514 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' is being disposed after spending 0ms reading results.
+2025-09-11 07:28:46.514 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.514 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (0ms).
+2025-09-11 07:28:46.514 +08:00 [DBG] User Found.
+2025-09-11 07:28:46.515 +08:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()
+    .First(e => e.empId == __user_EmployeeID_0)'
+2025-09-11 07:28:46.518 +08:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.createDate (DateTime) Required, 1], [Property: Employee.department (string) Required, 2], [Property: Employee.deptId (string), 3], [Property: Employee.email (string), 4], [Property: Employee.empId (string) Required AlternateKey AfterSave:Throw, 5], [Property: Employee.empName (string) Required, 6], [Property: Employee.lastChange (DateTime) Required, 7], [Property: Employee.managerId (string), 8], [Property: Employee.password (string) Required, 9], [Property: Employee.phoneNo (string), 10], [Property: Employee.position (string) Required, 11], [Property: Employee.reportMngId (string), 12], [Property: Employee.role (string) Required, 13], [Property: Employee.status (string) Required, 14] }
+        SELECT TOP(1) e.id, e.createDate, e.department, e.deptId, e.email, e.empId, e.empName, e.lastChange, e.managerId, e.password, e.phoneNo, e.position, e.reportMngId, e.role, e.status
+        FROM employee AS e
+        WHERE e.empId == @__user_EmployeeID_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    InternalSystem_ModelContext.DatabaseContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()'
+2025-09-11 07:28:46.518 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.518 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.518 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:28:46.519 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.519 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:28:46.519 +08:00 [DBG] Executing DbCommand [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."id", "e"."createDate", "e"."department", "e"."deptId", "e"."email", "e"."empId", "e"."empName", "e"."lastChange", "e"."managerId", "e"."password", "e"."phoneNo", "e"."position", "e"."reportMngId", "e"."role", "e"."status"
+FROM "employee" AS "e"
+WHERE "e"."empId" = @__user_EmployeeID_0
+LIMIT 1
+2025-09-11 07:28:46.519 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."id", "e"."createDate", "e"."department", "e"."deptId", "e"."email", "e"."empId", "e"."empName", "e"."lastChange", "e"."managerId", "e"."password", "e"."phoneNo", "e"."position", "e"."reportMngId", "e"."role", "e"."status"
+FROM "employee" AS "e"
+WHERE "e"."empId" = @__user_EmployeeID_0
+LIMIT 1
+2025-09-11 07:28:46.534 +08:00 [DBG] Context 'DatabaseContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-11 07:28:46.553 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.553 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' is being disposed after spending 34ms reading results.
+2025-09-11 07:28:46.553 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.553 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (0ms).
+2025-09-11 07:28:46.553 +08:00 [DBG] Authenticate done.
+2025-09-11 07:28:46.556 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-11 07:28:46.559 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json","text/json","text/x-json","text/javascript","application/xml","text/xml"]'.
+2025-09-11 07:28:46.560 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-11 07:28:46.560 +08:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 07:28:46.566 +08:00 [INF] Executed action THMY_API.Controllers.UserController.Login (THMY-API) in 250.0874ms
+2025-09-11 07:28:46.566 +08:00 [INF] Executed endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:28:46.566 +08:00 [DBG] Connection id "0HNFGO6V336GN" completed keep alive response.
+2025-09-11 07:28:46.566 +08:00 [DBG] 'DatabaseContext' disposed.
+2025-09-11 07:28:46.569 +08:00 [DBG] Disposing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:28:46.570 +08:00 [DBG] Disposed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (1ms).
+2025-09-11 07:28:46.570 +08:00 [DBG] 'APIContext' disposed.
+2025-09-11 07:28:46.570 +08:00 [DBG] Disposing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:28:46.570 +08:00 [DBG] Disposed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (0ms).
+2025-09-11 07:28:46.570 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/User - 200 null application/json; charset=utf-8 930.3528ms
+2025-09-11 07:30:00.508 +08:00 [DBG] Connection id "0HNFGO6V336GM" received FIN.
+2025-09-11 07:30:00.508 +08:00 [DBG] Connection id "0HNFGO6V336GN" received FIN.
+2025-09-11 07:30:00.509 +08:00 [DBG] Connection id "0HNFGO6V336GN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:30:00.509 +08:00 [DBG] Connection id "0HNFGO6V336GM" disconnecting.
+2025-09-11 07:30:00.509 +08:00 [DBG] Connection id "0HNFGO6V336GN" disconnecting.
+2025-09-11 07:30:00.510 +08:00 [DBG] Connection id "0HNFGO6V336GM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:30:00.516 +08:00 [DBG] Connection id "0HNFGO6V336GM" stopped.
+2025-09-11 07:30:00.519 +08:00 [DBG] Connection id "0HNFGO6V336GN" stopped.
+2025-09-11 07:32:32.298 +08:00 [DBG] Connection id "0HNFGO6V336GL" received FIN.
+2025-09-11 07:32:32.329 +08:00 [DBG] Connection id "0HNFGO6V336GL" is closed. The last processed stream ID was 1.
+2025-09-11 07:32:32.330 +08:00 [DBG] Connection id "0HNFGO6V336GL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:32:32.335 +08:00 [DBG] The connection queue processing loop for 0HNFGO6V336GL completed.
+2025-09-11 07:32:32.336 +08:00 [DBG] Connection id "0HNFGO6V336GL" stopped.
+2025-09-11 07:38:59.444 +08:00 [DBG] Connection id "0HNFGO6V336GO" accepted.
+2025-09-11 07:38:59.448 +08:00 [DBG] Connection id "0HNFGO6V336GO" started.
+2025-09-11 07:38:59.450 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5162/User - application/json 67
+2025-09-11 07:38:59.450 +08:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-09-11 07:38:59.450 +08:00 [DBG] Endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)' with route pattern 'User' is valid for the request path '/User'
+2025-09-11 07:38:59.450 +08:00 [DBG] Request matched endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:38:59.450 +08:00 [DBG] Redirecting to 'https://localhost:7195/User'.
+2025-09-11 07:38:59.451 +08:00 [DBG] Connection id "0HNFGO6V336GO" completed keep alive response.
+2025-09-11 07:38:59.451 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5162/User - 307 0 null 0.9566ms
+2025-09-11 07:38:59.451 +08:00 [DBG] Connection id "0HNFGO6V336GO", Request id "0HNFGO6V336GO:00000001": started reading request body.
+2025-09-11 07:38:59.451 +08:00 [DBG] Connection id "0HNFGO6V336GO", Request id "0HNFGO6V336GO:00000001": done reading request body.
+2025-09-11 07:38:59.456 +08:00 [DBG] Connection id "0HNFGO6V336GP" accepted.
+2025-09-11 07:38:59.456 +08:00 [DBG] Connection id "0HNFGO6V336GP" started.
+2025-09-11 07:38:59.463 +08:00 [DBG] Connection 0HNFGO6V336GP established using the following protocol: "Tls13"
+2025-09-11 07:38:59.463 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7195/User - application/json 67
+2025-09-11 07:38:59.467 +08:00 [DBG] 1 candidate(s) found for the request path '/User'
+2025-09-11 07:38:59.468 +08:00 [DBG] Endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)' with route pattern 'User' is valid for the request path '/User'
+2025-09-11 07:38:59.468 +08:00 [DBG] Request matched endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:38:59.519 +08:00 [DBG] Entity Framework Core 8.0.10 initialized 'APIContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: MigrationsAssembly=THMY-API 
+2025-09-11 07:38:59.522 +08:00 [DBG] Creating DbConnection.
+2025-09-11 07:38:59.522 +08:00 [DBG] Created DbConnection. (0ms).
+2025-09-11 07:38:59.522 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.523 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.523 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:38:59.523 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.523 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.523 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "APIStroageKey" AS "a"
+    WHERE "a"."ApplicationName" = @__p_0)
+2025-09-11 07:38:59.525 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "APIStroageKey" AS "a"
+    WHERE "a"."ApplicationName" = @__p_0)
+2025-09-11 07:38:59.525 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.525 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' is being disposed after spending 0ms reading results.
+2025-09-11 07:38:59.525 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.525 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (0ms).
+2025-09-11 07:38:59.525 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.526 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.526 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:38:59.526 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.526 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.526 +08:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."APISecret", "a"."ApplicationName"
+FROM "APIStroageKey" AS "a"
+WHERE "a"."ApplicationName" = @__p_0
+LIMIT 1
+2025-09-11 07:38:59.526 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."APISecret", "a"."ApplicationName"
+FROM "APIStroageKey" AS "a"
+WHERE "a"."ApplicationName" = @__p_0
+LIMIT 1
+2025-09-11 07:38:59.526 +08:00 [DBG] Context 'APIContext' started tracking 'APIStorage' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-11 07:38:59.526 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.526 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' is being disposed after spending 0ms reading results.
+2025-09-11 07:38:59.526 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.526 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (0ms).
+2025-09-11 07:38:59.527 +08:00 [INF] Executing endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:38:59.527 +08:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[InternalSystem_ModelContext.Models.SQLite.Employee]] Login(THMY_API.Models.User) on controller THMY_API.Controllers.UserController (THMY-API).
+2025-09-11 07:38:59.527 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-11 07:38:59.527 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-09-11 07:38:59.527 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-09-11 07:38:59.527 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-11 07:38:59.527 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-09-11 07:38:59.527 +08:00 [DBG] Executing controller factory for controller THMY_API.Controllers.UserController (THMY-API)
+2025-09-11 07:38:59.528 +08:00 [DBG] Executed controller factory for controller THMY_API.Controllers.UserController (THMY-API)
+2025-09-11 07:38:59.528 +08:00 [DBG] Attempting to bind parameter 'user' of type 'THMY_API.Models.User' ...
+2025-09-11 07:38:59.529 +08:00 [DBG] Attempting to bind parameter 'user' of type 'THMY_API.Models.User' using the name '' in request data ...
+2025-09-11 07:38:59.529 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-09-11 07:38:59.529 +08:00 [DBG] Connection id "0HNFGO6V336GP", Request id "0HNFGO6V336GP:00000001": started reading request body.
+2025-09-11 07:38:59.529 +08:00 [DBG] Connection id "0HNFGO6V336GP", Request id "0HNFGO6V336GP:00000001": done reading request body.
+2025-09-11 07:38:59.529 +08:00 [DBG] JSON input formatter succeeded, deserializing to type 'THMY_API.Models.User'
+2025-09-11 07:38:59.529 +08:00 [DBG] Done attempting to bind parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:38:59.529 +08:00 [DBG] Done attempting to bind parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:38:59.529 +08:00 [DBG] Attempting to validate the bound parameter 'user' of type 'THMY_API.Models.User' ...
+2025-09-11 07:38:59.529 +08:00 [DBG] Done attempting to validate the bound parameter 'user' of type 'THMY_API.Models.User'.
+2025-09-11 07:38:59.530 +08:00 [DBG] In PostRequest.
+2025-09-11 07:38:59.530 +08:00 [DBG] Entity Framework Core 8.0.10 initialized 'DatabaseContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: MigrationsAssembly=THMY-API 
+2025-09-11 07:38:59.531 +08:00 [DBG] Creating DbConnection.
+2025-09-11 07:38:59.531 +08:00 [DBG] Created DbConnection. (0ms).
+2025-09-11 07:38:59.531 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.533 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.533 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:38:59.533 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.533 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.533 +08:00 [DBG] Executing DbCommand [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "employee" AS "e"
+    WHERE "e"."empId" = @__user_EmployeeID_0)
+2025-09-11 07:38:59.534 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "employee" AS "e"
+    WHERE "e"."empId" = @__user_EmployeeID_0)
+2025-09-11 07:38:59.534 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.534 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' is being disposed after spending 0ms reading results.
+2025-09-11 07:38:59.534 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.535 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (0ms).
+2025-09-11 07:38:59.535 +08:00 [DBG] User Found.
+2025-09-11 07:38:59.535 +08:00 [DBG] Opening connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.535 +08:00 [DBG] Opened connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.535 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-09-11 07:38:59.535 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.535 +08:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-09-11 07:38:59.535 +08:00 [DBG] Executing DbCommand [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."id", "e"."createDate", "e"."department", "e"."deptId", "e"."email", "e"."empId", "e"."empName", "e"."lastChange", "e"."managerId", "e"."password", "e"."phoneNo", "e"."position", "e"."reportMngId", "e"."role", "e"."status"
+FROM "employee" AS "e"
+WHERE "e"."empId" = @__user_EmployeeID_0
+LIMIT 1
+2025-09-11 07:38:59.535 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[@__user_EmployeeID_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "e"."id", "e"."createDate", "e"."department", "e"."deptId", "e"."email", "e"."empId", "e"."empName", "e"."lastChange", "e"."managerId", "e"."password", "e"."phoneNo", "e"."position", "e"."reportMngId", "e"."role", "e"."status"
+FROM "employee" AS "e"
+WHERE "e"."empId" = @__user_EmployeeID_0
+LIMIT 1
+2025-09-11 07:38:59.536 +08:00 [DBG] Context 'DatabaseContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-09-11 07:38:59.536 +08:00 [DBG] Closing data reader to 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.536 +08:00 [DBG] A data reader for 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' is being disposed after spending 0ms reading results.
+2025-09-11 07:38:59.536 +08:00 [DBG] Closing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.536 +08:00 [DBG] Closed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (0ms).
+2025-09-11 07:38:59.536 +08:00 [DBG] Authenticate done.
+2025-09-11 07:38:59.536 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-09-11 07:38:59.536 +08:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json","text/json","text/x-json","text/javascript","application/xml","text/xml"]'.
+2025-09-11 07:38:59.536 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-09-11 07:38:59.536 +08:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 07:38:59.537 +08:00 [INF] Executed action THMY_API.Controllers.UserController.Login (THMY-API) in 9.4266ms
+2025-09-11 07:38:59.537 +08:00 [INF] Executed endpoint 'THMY_API.Controllers.UserController.Login (THMY-API)'
+2025-09-11 07:38:59.537 +08:00 [DBG] Connection id "0HNFGO6V336GP" completed keep alive response.
+2025-09-11 07:38:59.537 +08:00 [DBG] 'DatabaseContext' disposed.
+2025-09-11 07:38:59.537 +08:00 [DBG] Disposing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db'.
+2025-09-11 07:38:59.537 +08:00 [DBG] Disposed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\ticketing_dev.db' (0ms).
+2025-09-11 07:38:59.537 +08:00 [DBG] 'APIContext' disposed.
+2025-09-11 07:38:59.537 +08:00 [DBG] Disposing connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db'.
+2025-09-11 07:38:59.537 +08:00 [DBG] Disposed connection to database 'main' on server 'C:\Users\tzerming\Documents\SQLiteDB\API_dev.db' (0ms).
+2025-09-11 07:38:59.537 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7195/User - 200 null application/json; charset=utf-8 74.1021ms
+2025-09-11 07:39:01.588 +08:00 [DBG] Connection id "0HNFGO6V336GO" reset.
+2025-09-11 07:39:01.588 +08:00 [DBG] Connection id "0HNFGO6V336GP" reset.
+2025-09-11 07:39:01.588 +08:00 [DBG] Connection id "0HNFGO6V336GO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:39:01.588 +08:00 [DBG] Connection id "0HNFGO6V336GO" disconnecting.
+2025-09-11 07:39:01.599 +08:00 [DBG] Connection id "0HNFGO6V336GP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-11 07:39:01.601 +08:00 [DBG] Connection id "0HNFGO6V336GP" disconnecting.
+2025-09-11 07:39:01.638 +08:00 [DBG] Connection id "0HNFGO6V336GO" stopped.
+2025-09-11 07:39:01.724 +08:00 [DBG] Connection id "0HNFGO6V336GP" stopped.
