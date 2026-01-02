@@ -45,6 +45,9 @@ Log.Logger = new LoggerConfiguration()
 builder.Host.UseSerilog();
 
 
+// Register deletion validator service
+builder.Services.AddScoped<THMY_API.Services.IDeletionValidator, THMY_API.Services.DeletionValidator>();
+builder.Services.AddSingleton<THM_Encryption.Encryption>();
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 //builder.Services.AddOpenApi();
@@ -63,7 +66,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Apply API key validation first
 app.UseMiddleware<APIKeyMiddleware>();
+
+// Apply deletion validation before controller actions
+app.UseMiddleware<THMY_API.Middlewares.DeletionValidationMiddleware>();
 
 app.UseAuthorization();
 
