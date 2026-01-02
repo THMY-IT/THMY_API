@@ -33,7 +33,6 @@
     <Reference Include="InternalSystem_ModelContext">
       <HintPath>InternalSystem_ModelContext.dll</HintPath>
     </Reference>
-	  <ProjectReference Include="..\Contracts\Contracts\Contracts.csproj" />
 
   </ItemGroup>
 

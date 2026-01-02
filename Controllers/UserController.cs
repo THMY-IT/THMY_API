@@ -26,17 +26,23 @@ namespace THMY_API.Controllers
 
             if (_context.employee.Any(e => e.empId == user.EmployeeID) == false)
             {
-                _logger.LogDebug("No user found.");
-                return Unauthorized();
+                _logger.LogDebug("No employee found.");
+                return Forbid("Employee not found.");
             }
 
-            _logger.LogDebug("User Found.");
+            _logger.LogDebug("Employee Found.");
             employee = _context.employee.First(e => e.empId == user.EmployeeID);
+
+            if (employee.status.Equals("Inactive"))
+            {
+                _logger.LogDebug("Employee status is inactive.");
+                return Unauthorized("Employee status is inactive.");
+            }
 
             if (employee.password.Equals(user.Password) == false)
             {
                 _logger.LogDebug("Wrong Password.");
-                return Unauthorized();
+                return Unauthorized("Incorrect EmployeeID or Password.");
             }
 
             _logger.LogDebug("Authenticate done.");
